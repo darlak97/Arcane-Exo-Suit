@@ -1,0 +1,92 @@
+{
+  "TranslationProperties": {
+    "Name": "Inserter"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.55,
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Automation/Inserter.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Automation/Automation_D97_Inserter_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#2c153a",
+    "State": {
+      "Id": "container",
+      "Capacity": 1,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Metal_Hit",
+          "CustomModelAnimation": "Blocks/Decorative_Sets/Scarak_Hive/Chest_Small_Close.blockyanim",
+          "Looping": false
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Metal_Break",
+          "CustomModelAnimation": "Blocks/Decorative_Sets/Scarak_Hive/Chest_Small_Open.blockyanim",
+          "Looping": false
+        }
+      }
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "MatchSelf": "Ignored"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    },
+    "Looping": true,
+    "HitboxType": "D97_Inserter_Hitbox",
+    "CustomModelAnimation": "Blocks/Automation/Inserter_Interaction.blockyanim"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Automation"
+    ]
+  },
+  "$Comment": " ",
+  "Icon": "Icons/ItemsGenerated/Automation_D97_Inserter.png",
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "ItemLevel": 19,
+  "MaxStack": 5,
+  "Set": "Furniture_Ancient"
+}

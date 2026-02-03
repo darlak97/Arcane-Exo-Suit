@@ -1,0 +1,24 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/PlayerActions/Movement/Exo_Suit_Jump_B.ogg",
+        "Sounds/PlayerActions/Movement/Exo_Suit_Jump_C.ogg",
+        "Sounds/PlayerActions/Movement/Exo_Suit_Jump_D.ogg",
+        "Sounds/PlayerActions/Movement/Exo_Suit_Jump.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -3.8631371386483475,
+        "MaxPitch": 3.1564128700055254,
+        "MinVolume": -1.9382002601611275
+      },
+      "Volume": -10.0,
+      "StartDelay": 0.1
+    }
+  ],
+  "MaxInstance": 6,
+  "Volume": -2.32,
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate",
+  "Pitch": 0.96
+}

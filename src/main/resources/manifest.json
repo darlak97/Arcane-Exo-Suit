@@ -1,0 +1,24 @@
+{
+  "Group": "darlak97",
+  "Name": "Arcane_Exo_Suit",
+  "Version": "1.0.0",
+  "Description": "A mod built for the first Hytale ModJam. It lest you find and repair an exo-suit that can ve enhanced to grant otherworldly abilites.",
+  "Authors": [
+    {
+      "Name": "darlak97",
+      "Email": "darlak97games@gmail.com",
+      "Url": "https://x.com/darlak97"
+    }
+  ],
+  "Website": "https://x.com/darlak97",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Hytale:BlockModule": "*"
+  },
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": [],
+  "Main": "com.d97.exo_mod.D97_Plugin"
+}

@@ -1,0 +1,93 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Exo_Suit_Chest_Lighting.name",
+    "Description": "server.items.Exo_Suit_Chest_Lighting.description"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "Icon": "Icons/ItemsGenerated/Automation_D97_Exo_Suit_Lighting.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.3,
+    "Translation": [
+      -3.6,
+      -59.4
+    ]
+  },
+  "Model": "Items/Armors/Exo_Suit/Exo-Suit.blockymodel",
+  "Texture": "Items/Armors/Exo_Suit/Exo_Suit_Texture_Lighting.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Exo_Suit_Chest",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Lightning_Essence",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Station_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Station_Upgrades"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.22,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.11,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Exo_Suit"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 1
+}

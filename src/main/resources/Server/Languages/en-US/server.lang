@@ -1,0 +1,18 @@
+items.Exo_Suit_Chest_Wind.name=Exo Suit (Wind)
+items.Exo_Suit_Chest_Wind.description=This suit radiates life and a mysterious energy — it feels comforting when worn. (Ongoing health regeneration)
+
+items.Exo_Suit_Chest_Lighting.name=Exo Suit (Lighting)
+items.Exo_Suit_Chest_Lighting.description=This suit looks charged with a huge amount of energy — what powers will it give? (Use 'Ctrl' and 'Space' for jumping and mobility)
+
+items.Exo_Suit_Scrap.name=Exo Suit Scrap
+items.Exo_Suit_Scrap.description=it looks a pile of refined but worn metals - is it repairable?
+
+items.Exo_Suit_Chest.name=Exo Suit
+items.Exo_Suit_Chest.description=A suit that seems to have no power left, (equipped in the chest slot).
+
+
+items.Bench_Armor_Station.name=Armor Station
+items.Bench_Armor_Station.description=A workbench designed for making one armor?
+	
+benchCategories.Armor_Station_Make=Manufacture
+benchCategories.Armor_Station_Upgrades=Runes Upgrades

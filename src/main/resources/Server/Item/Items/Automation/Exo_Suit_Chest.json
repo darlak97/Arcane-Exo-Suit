@@ -1,0 +1,97 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Exo_Suit_Chest.name",
+    "Description": "server.items.Exo_Suit_Chest.description"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "Icon": "Icons/ItemsGenerated/Automation_D97_Exo_Suit.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.3,
+    "Translation": [
+      -3.6,
+      -59.4
+    ]
+  },
+  "Model": "Items/Armors/Exo_Suit/Exo-Suit.blockymodel",
+  "Texture": "Items/Armors/Exo_Suit/Exo_Suit_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Exo_Suit_Scrap",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 6,
+        "ItemId": "Ingredient_Bar_Iron"
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 24
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Station_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Station_Make"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.25,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.3,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 18,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Exo_Suit"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

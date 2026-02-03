@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Exo_Suit_Scrap.name",
+    "Description": "server.items.Exo_Suit_Scrap.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Set": "Scrap",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Automation/Exo-Suit_Scrap.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Automation/Exo_Suit_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {},
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "RandomRotation": "YawStep1",
+    "ParticleColor": "#493a31",
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "Color": "#463c36",
+        "TargetEntityPart": "PrimaryItem"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "CustomModelScale": 0.7,
+    "HitboxType": "Exo_Suit_Scrap"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      7,
+      43,
+      10
+    ],
+    "Translation": [
+      0.352,
+      -17
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Automation_D97_Exo_Suit_Scrap.png",
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "Quality": "Epic",
+  "Scale": 1.5
+}

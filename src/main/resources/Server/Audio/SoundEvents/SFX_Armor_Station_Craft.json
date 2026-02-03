@@ -1,0 +1,12 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/PlayerActions/Movement/Exo_Suit_Input.ogg"
+      ],
+      "Volume": -1.88
+    }
+  ],
+  "Volume": -0.12,
+  "Parent": "SFX_Attn_Moderate"
+}
